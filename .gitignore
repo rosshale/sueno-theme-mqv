@@ -1,0 +1,8 @@
+*.old
+*.bak
+.*.swp
+.DS_Store
+Thumbs.db
+_notes
+desktop.ini
+dwsync.xml
