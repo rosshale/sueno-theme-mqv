@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('head').append('<link href="/sueno/sueno.css" rel="stylesheet">');
 
 	// Rotation 
-	$('head').append('<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">');
+	$('head').append('<link href="/sueno/vendor/font-awesome/font-awesome.css" rel="stylesheet">');
 	$('.inline-attachment dd').prepend(
 		'<div class="rotate-container">' + 
 		'  <a class="rotate rotate-left" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-left"></i></span></a>' + 
