@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 	// Fix attached width
 	var width = $('.attach-image').width() - 20;
-	$('.attach-image').css('max-height', 'auto');
-	$('.attach-image img').css('max-width', width + 'px');	
+	$('.attach-image').css('max-height', 'none');
+	$('.attach-image img').css('max-width', width + 'px');
 
 });
