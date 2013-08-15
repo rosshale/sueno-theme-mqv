@@ -1,0 +1,3 @@
+[submodule "vendor/exif-js"]
+	path = vendor/exif-js
+	url = https://github.com/jseidelin/exif-js.git
