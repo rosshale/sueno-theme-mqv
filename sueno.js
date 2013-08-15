@@ -10,10 +10,6 @@ $(document).ready(function(){
 	// CSS overrides
 	$('head').append('<link href="/sueno/sueno.css" rel="stylesheet">');
 
-	// Fix attached width
-	var width = $('.attach-image').width() - 20;
-	$('.attach-image img').css('max-width', width + 'px');
-
 	// Rotation 
 	$('head').append('<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">');
 	$('.inline-attachment dd').prepend(

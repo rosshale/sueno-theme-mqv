@@ -1,6 +1,10 @@
 .attach-image {
 	max-height: none;
 }
+.attach-image {
+	max-width: 100%;
+	border: 0;
+}
 .rotate-container {
 	float: right;
 	text-align: right;
