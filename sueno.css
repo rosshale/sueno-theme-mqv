@@ -1,0 +1,19 @@
+.attach-image {
+	max-height: none;
+}
+.rotate-container {
+	float: right;
+	text-align: right;
+	margin-top: 5px;
+}
+.rotate a {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 16px;
+	text-decoration: none;
+}
+.rotate a:active,
+.rotate a:hover,
+.rotate a:focus {
+	text-decoration: none;
+}
