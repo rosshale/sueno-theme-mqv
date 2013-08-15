@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	// Rotation 
 	$('head').append('<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">');
-	$('.inline-attachment').append(
+	$('.inline-attachment dd').prepend(
 		'<div class="rotate-container">' + 
 		'  <a class="rotate rotate-left" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-left"></i></span></a>' + 
 		'  <a class="rotate rotate-right" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-right"></i></span></a>' + 

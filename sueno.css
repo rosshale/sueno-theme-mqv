@@ -2,16 +2,13 @@
 	max-height: none;
 }
 .rotate-container {
-	position: relative;
-	top: -40px;
-	left: -30px;
+	float: right;
 	text-align: right;
 	margin-top: 5px;
 }
 .rotate a {
 	display: inline-block;
 	margin: 0 10px;
-	font-size: 16px;
 	text-decoration: none;
 }
 .rotate a:active,
