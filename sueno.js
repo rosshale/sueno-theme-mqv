@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 	// Rotation 
 	$('head').append('<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">');
-	$('.attach-image img').after(
+	$('.inline-attachment').append(
 		'<div class="rotate-container">' + 
 		'  <a class="rotate rotate-left" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-left"></i></span></a>' + 
 		'  <a class="rotate rotate-right" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-right"></i></span></a>' + 
@@ -26,8 +26,7 @@ $(document).ready(function(){
 	$('a.rotate').click(function(e) {
 		e.preventDefault();
 		var _this = $(this);
-		var imgWrapper = _this.closest('.attach-image');
-		var img = imgWrapper.find('> img');
+		var img = _this.parent().closest('.inline-attachment').find('img');
 		var currentRotation = img.attr('rotated') || 0;
 		currentRotation = parseInt(currentRotation);
 		function setRotation(val) {
