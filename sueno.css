@@ -1,19 +1,26 @@
-.attach-image {
+.attach-image, .attachcontent {
 	max-height: none;
+	overflow: visible;
 }
-.attach-image img {
+.attach-image img, .attachcontent img {
 	max-width: 100%;
 	border: 0;
 }
-.rotate-container {
+.inline-attachment .rotate-container {
 	float: right;
 	text-align: right;
 	margin-top: 5px;
 }
-.rotate a {
+.attachcontent .rotate-container {
+	text-align: left;
+	margin: 10px 0;
+}
+.rotate-container a {
 	display: inline-block;
-	margin: 0 10px;
 	text-decoration: none;
+}
+.rotate-container  a:first-child {
+	padding-right: 10px;
 }
 .rotate a:active,
 .rotate a:hover,

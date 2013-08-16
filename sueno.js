@@ -11,18 +11,22 @@ $(document).ready(function(){
 	$('head').append('<link href="/sueno/sueno.css" rel="stylesheet">');
 
 	// Rotation 
-	$('head').append('<link href="/sueno/vendor/font-awesome/font-awesome.css" rel="stylesheet">');
-	$('.inline-attachment dd').prepend(
-		'<div class="rotate-container">' + 
-		'  <a class="rotate rotate-left" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-left"></i></span></a>' + 
-		'  <a class="rotate rotate-right" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-right"></i></span></a>' + 
-		'</div>'
-	);
-	
+	$('head').append('<link href="/sueno/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">');
+	var rotateHTML = '<div class="rotate-container">' + 
+					 '  <a class="rotate rotate-left" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-left"></i></span></a>' + 
+					 '  <a class="rotate rotate-right" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-right"></i></span></a>' + 
+					 '</div>';
+	$('.inline-attachment dd').prepend(rotateHTML);
+	$('.attachcontent .gensmall').after(rotateHTML);
 	$('a.rotate').click(function(e) {
 		e.preventDefault();
 		var _this = $(this);
-		var img = _this.parent().closest('.inline-attachment').find('img');
+		var img;
+		if (_this.parent().closest('.inline-attachment').length) {
+			img = _this.parent().closest('.inline-attachment').find('img');
+		} else if (_this.parent().closest('.attachcontent').length) {
+			img = _this.parent().closest('.attachcontent').children('img');
+		}
 		var currentRotation = img.attr('rotated') || 0;
 		currentRotation = parseInt(currentRotation);
 		function setRotation(val) {
