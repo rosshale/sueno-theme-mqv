@@ -17,7 +17,7 @@ $(document).ready(function(){
 					 '  <a class="rotate rotate-right" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-right"></i></span></a>' + 
 					 '</div>';
 	$('.inline-attachment dd').prepend(rotateHTML);
-	$('.attachcontent .gensmall').after(rotateHTML);
+	$('.attachcontent').append(rotateHTML);
 	$('a.rotate').click(function(e) {
 		e.preventDefault();
 		var _this = $(this);
