@@ -1,6 +1,6 @@
 .attach-image, .attachcontent {
 	max-height: none;
-	overflow: visible;
+	overflow: auto;
 }
 .attach-image img, .attachcontent img {
 	max-width: 100%;
