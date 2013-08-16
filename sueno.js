@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('head').append('<link href="/sueno/sueno.css" rel="stylesheet">');
 
 	// Rotation 
-	$('head').append('<link href="/sueno/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">');
+	$('head link').first().before('<link href="/sueno/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">');
 	var rotateHTML = '<div class="rotate-container">' + 
 					 '  <a class="rotate rotate-left" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-left"></i></span></a>' + 
 					 '  <a class="rotate rotate-right" href="#"><span class="icon-stack"><i class="icon-check-empty icon-stack-base"></i><i class="icon-rotate-right"></i></span></a>' + 
