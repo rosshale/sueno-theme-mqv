@@ -5,6 +5,6 @@
 
 #wrap {
   border: none;
-  max-width: auto;
+  max-width: none;
   font-size: 1.1em;
 }
