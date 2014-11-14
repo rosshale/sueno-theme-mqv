@@ -2,3 +2,9 @@
   background-image: url("./images/site_logo.png");
   padding-left: 222px;
 }
+
+#wrap {
+  border: none;
+  max-width: auto;
+  font-size: 1.1em;
+}
