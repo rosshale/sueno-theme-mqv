@@ -1,3 +1,5 @@
+body { padding: 0; }
+
 .imageset.site_logo {
   background-image: url("./images/site_logo.png");
   padding-left: 222px;
