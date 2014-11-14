@@ -1,1 +1,4 @@
-.imageset.site_logo { background-image: url("./images/site_logo.gif"); }
+.imageset.site_logo {
+  background-image: url("./images/site_logo.gif");
+  padding-left: 210px;
+}
