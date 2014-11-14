@@ -6,3 +6,6 @@ Thumbs.db
 _notes
 desktop.ini
 dwsync.xml
+
+node_modules
+npm-debug.log
