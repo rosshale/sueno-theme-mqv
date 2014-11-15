@@ -29,13 +29,14 @@ body {
   font-family: 'Gruppo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 0.8rem;
+  color: #990000;
 }
 
 #search-box {
   box-shadow: 0 0 1px #3475B0;
 }
 
-.forabg, .navbar {
+.forabg, .navbar, .forumbg {
   background-image: none;
   background-color: #E6EEF2;
 }
