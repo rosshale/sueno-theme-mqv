@@ -28,6 +28,7 @@ body {
 #site-description p {
   font-family: 'Gruppo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
+  font-size: 0.8rem;
 }
 
 #search-box {
