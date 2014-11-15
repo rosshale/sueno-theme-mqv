@@ -55,11 +55,19 @@ li.row:hover {
 }
 
 li.row:hover dd {
-  border-left-color: none;
+  border-left-color: transparent;
 }
 
 li.header dt, li.header dd {
   color: #777;
+}
+
+ul.topiclist li.bg1 {
+  background-color: #F9FDFF;
+}
+
+ul.topiclist li.bg2 {
+  background-color: #F4F9FD;
 }
 
 ul.topiclist dt .list-inner {
