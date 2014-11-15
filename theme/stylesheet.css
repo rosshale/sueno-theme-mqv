@@ -1,4 +1,4 @@
-body { 
+body {
   padding: 0;
   backgound-color: #F9FAFD;
 }
@@ -22,14 +22,18 @@ body {
 #site-description h1 {
   color: #990000;
   font-family: 'Gruppo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 2.9em;
+  font-weight: normal;
+  font-size: 3.2em;
+  margin-top: 10px;
+  letter-spacing: 2px;
 }
 
 #site-description p {
   font-family: 'Gruppo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 0.8rem;
+  font-weight: normal;
+  font-size: 1rem;
   color: #990000;
+  letter-spacing: 1.5px;
 }
 
 #search-box {
@@ -82,17 +86,3 @@ ul.topiclist dt .list-inner {
 a {
   color: #769CBB;
 }
-
-/* 
-a.forumtitle {
-  font-size: 1.4em;
-  font-weight: bold;
-  text-decoration: none;
-  font-family: 'Gruppo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  letter-spacing: 0px;
-}
-
-a.lastsubject {
-  font-weight: normal;
-} 
- */
